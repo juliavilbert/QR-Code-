@@ -17,6 +17,9 @@ body {
 main {
     max-width: 200px; /* used just-cont:center at body instead of margin: 0 auto at main to center things.
     things dosent seem to be working anymore lol*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
     
 }
