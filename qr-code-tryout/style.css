@@ -15,7 +15,7 @@ body {
 }
 
 main {
-    max-width: 360px; /* used justify-content at body instead of margin: 0 auto; at main to center things */
+    max-width: 360px; /* used just-cont at body instead of margin: 0 auto; at main to center things*/
     
 }
 
