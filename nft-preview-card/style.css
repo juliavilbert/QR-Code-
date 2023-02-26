@@ -27,6 +27,7 @@ main{
     border-radius:15px;
     position:relative;
     cursor: pointer;
+    width:100%;
 }
 .mainImg{
     width: 100%;
