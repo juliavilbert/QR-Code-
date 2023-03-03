@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+/*font-family: 'Red Hat Display', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+}
+
+body{
+    background: url(./images/pattern-background-desktop.svg) left top repeat-x;
+    background-size: 80%;
+    background-color: hsl(225, 100%, 94%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 20px;
+
+}
+
+    .cardbody{
+        width: 300px;
+        background-color: white;
+        border-radius: 10px;
+        
+        
+    }
+    .middle{
+        padding: 20px;
+    }
+
+    
+    .image img {
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .text{
+        text-align: center;
+        
+    }
+    .text h1 {
+        font-size: 1.3rem;
+        color: hsl(223, 47%, 23%)
+        
+
+        
+    }
+    .text p{
+        font-size: 0.8rem;
+        color: hsl(224, 23%, 55%);
+    }
+
+    
+    .middlebox{
+        background-color: hsl(225, 100%, 98%);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;   
+        
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+        
+        border-radius: 7px;    
+    }
+            .middlebox h1{
+                font-size: 1rem;
+                font-weight: 800;
+                color: hsl(223, 47%, 23%);
+            }
+
+            .icon-music{
+                background: url('./images/icon-music.svg') 
+            }
+
+            .middlebox h2{
+                font-size: 0.8rem;
+                color:hsl(224, 23%, 55%) ;
+                font-weight: 300;
+                
+            }
+
+            .left{
+                margin-bottom:7px;
+                margin-top:10px;
+            }
+            .left img{
+                
+            }
+
+            .right a{
+                font-size: 0.8rem;
+                font-weight: 600;
+                color: hsl(245, 75%, 52%);
+            }
+
+            
+            .under{
+                display: column;
+                justify-content: right;
+                align-items: right;
+                font-size: 0.7rem;
+                text-align: center;
+                
+            }
+            .under p{
+                color: hsl(245, 75%, 52%);
+                font-family: 'Red Hat Display', sans-serif;
+                
+                
+            }
+            .under a{
+                text-decoration: none;
+            }
+            button{
+                
+                border: none;
+                background-color: hsl(245, 75%, 52%);
+                padding: 10px 30px;
+                color: white;
+                font-size: 1rem;
+                border-radius: 5px;
+                cursor: pointer;
+                
+            }
+
+            button:hover{
+                background-color: rgb(87, 174, 228);
+            }
+            
+
+            
+                
+    
+    
+
+
+
+
+        
