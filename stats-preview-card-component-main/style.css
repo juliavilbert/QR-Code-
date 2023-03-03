@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+/*font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    max-width: 700px;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+    .cardbox{
+        max-width:50% ;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+        
+        
+
+    }    
+
+        .text{
+           padding: 20px; 
+           
+        }
+
+            .text h1{
+                font-family: 'Inter', sans-serif;
+                color: hsl(0, 0%, 100%); 
+                font-size: 1.6rem;
+                padding-bottom: 25px;   
+            }
+            
+            .text span{
+                color:hsl(277, 64%, 61%);
+            }
+
+            .text p{
+                font-size: 0.7rem;
+                font-family: 'Inter', sans-serif;
+                color: hsla(0, 0%, 100%, 0.75);
+                padding-bottom: 30px;
+                
+                line-height: 1rem;
+                padding-right: 60px;
+                
+            }
+
+
+        .numbers{
+            display: flex;
+            max-width: 80%;
+            justify-content: space-between;
+            font-family: 'Inter', sans-serif;
+            color: hsl(0, 0%, 100%);
+            
+        }
+        .numbers h2, h3, h4 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .numbers span{
+            font-size: .6rem;
+            font-family: 'Inter', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
+            display: block;
+            color: hsla(0, 0%, 100%, 0.6);
+            margin-top: 5px;
+            letter-spacing: 1px;
+        }
+
+
+
+.image-right{
+    max-width: 50%;
+background-color: hsl(277, 51%, 36%);
+
+}
+.image-right img{
+    width: 100%; 
+    height: 100%;
+    opacity: 0.4;
+}
