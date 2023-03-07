@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+/*font-family: 'Kumbh Sans', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(185, 75%, 39%);
+}
+    
+
+.cardbox {
+ background-color: white;
+ width: 400px;
+ font-family: 'Kumbh Sans', sans-serif;
+ border-radius: 20px;
+ overflow: hidden;
+ 
+}
+
+.middle{
+    position: relative;
+}
+
+.bg img{
+    width: 100%;
+}
+
+
+.profile{
+    position: absolute;
+    top: 38%;
+    left:37%;
+}
+
+.profile img{
+    border-radius: 50%;
+    border: 6px solid white;
+}
+
+.content{
+    margin-top:4rem;
+    margin-bottom: 1.8rem;
+    text-align: center;
+    line-height: 2rem;
+    
+}
+
+
+.content h1{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    padding-left: 2rem;
+    
+}
+.content span{
+    display: inline;
+    font-weight: 400;
+    font-size: 1.2rem;
+    
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8rem 2.5rem;
+    border-top: 1px solid hsla(0, 0%, 59%, 0.336);
+    line-height: 1.7rem;
+        
+}
+.footer h2{
+    text-align: center;
+    font-size: 1.3rem;
+    color:hsl(229, 23%, 23%)
+    
+}
+
+span{
+    font-size: 0.9rem;
+    font-weight: 200;
+    display: block;
+    color: hsl(0, 0%, 59%);
+    letter-spacing: 2px;
+}
+
+
+
+
+
